@@ -19,7 +19,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".agera.demo1.AgeraDemo1Activity" />
-        <activity android:name=".agera.demo2.AgeraDemo2Activity"></activity>
+        <activity android:name=".agera.demo2.AgeraDemo2Activity" />
+        <activity android:name=".ndk.NdkDemo1Activity"></activity>
     </application>
 
 </manifest>
