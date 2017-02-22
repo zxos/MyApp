@@ -12,6 +12,8 @@ import android.view.MenuItem;
 
 import me.zxos.myapp.agera.demo1.AgeraDemo1Activity;
 import me.zxos.myapp.agera.demo2.AgeraDemo2Activity;
+import me.zxos.myapp.customUI.CustomDemo1Activity;
+import me.zxos.myapp.handle.HandleDemo1Activity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -52,6 +54,22 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, AgeraDemo2Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        contentMain.findViewById(R.id.handelerDemo1).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, HandleDemo1Activity.class);
+                startActivity(intent);
+            }
+        });
+
+        contentMain.findViewById(R.id.customDemo1).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, CustomDemo1Activity.class);
                 startActivity(intent);
             }
         });

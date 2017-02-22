@@ -20,7 +20,10 @@
         </activity>
         <activity android:name=".agera.demo1.AgeraDemo1Activity" />
         <activity android:name=".agera.demo2.AgeraDemo2Activity" />
-        <activity android:name=".ndk.NdkDemo1Activity"></activity>
+        <activity android:name=".ndk.NdkDemo1Activity" />
+        <activity android:name=".other.demo1.OtherDemo1Activity" />
+        <activity android:name=".handle.HandleDemo1Activity" />
+        <activity android:name=".customUI.CustomDemo1Activity"></activity>
     </application>
 
 </manifest>
